@@ -2,7 +2,11 @@
 This repository contains utilities useful for Datafrog SF2000 owners.
 
 ## Foreword
-If you have some IT experience you might find some of the steps counter intuitive. Eg. pagefile.sys file being the menu background music. The reason for this weird naming convention on Datafrog's end is - obfuscation. They compile their OS in a way that obfuscates the, otherwise obvious, file system/structure.
+If you have some IT experience you might find part of the steps counter intuitive. 
+
+- Eg. pagefile.sys file being the menu background music. 
+
+The reason for this weird naming convention on Datafrog's end is - obfuscation. They compile their OS in a way that obfuscates the, otherwise obvious, file system/structure.
 Thus you end up modifying music by editing pagefile.sys file, which usually would be responsible for something entirely different on Win/Nix systems. There's much more examples of this, eg. there are files on the SD card named after popular windows .dll libraries, or even DirectX.
 
 Takeaway is: this is intentional obfuscation of the OS. Backup all your files prior to modification and you will be okay.
@@ -21,3 +25,6 @@ To disable the menu music:
 - replace the original file
 
 Insert the SD card back into the device, turn it on and notice the music no longer plays in the menu.
+
+### Remap emulation buttons/controls
+WIP, coming soon as a separate webpage.
