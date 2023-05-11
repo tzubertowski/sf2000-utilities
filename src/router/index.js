@@ -18,6 +18,11 @@ const routes = [
         path: 'music-disabler',
         name: 'Menu Music Disabler',
         component: () => import(/* webpackChunkName: "home" */ '@/views/MusicDisabler.vue'),
+      },
+      {
+        path: 'button-mapper',
+        name: 'Button mapper',
+        component: () => import(/* webpackChunkName: "home" */ '@/views/ButtonMapper.vue'),
       }
     ],
   },
