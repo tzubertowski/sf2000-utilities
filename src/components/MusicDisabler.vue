@@ -15,7 +15,7 @@
                     <template v-slot:subtitle>eg. F:/Resources/pagefile.sys</template>
                 </v-list-item>
                 <v-list-item>
-                    <template v-slot:title>- <v-btn text="Download" href="https://github.com/tzubertowski/sf2000-utilities/releases/download/sf2000/datafrog-sf2000-remove-music.zip"></v-btn> the substitution file</template>
+                    <template v-slot:title>- <v-btn color="pink-lighten-2" text="Download" href="https://github.com/tzubertowski/sf2000-utilities/releases/download/sf2000/datafrog-sf2000-remove-music.zip"></v-btn> the substitution file</template>
                     <template v-slot:subtitle>This is an empty pagefile.sys file, only containing mandatory file headers</template>
                 </v-list-item>
                 <v-list-item>
@@ -24,7 +24,6 @@
                 </v-list-item>
                 <v-list-item>
                     <template v-slot:title>- replace the original file when asked for it</template>
-                    <template v-slot:subtitle>eg. F:/Resources/pagefile.sys</template>
                 </v-list-item>
             </v-list>
 
