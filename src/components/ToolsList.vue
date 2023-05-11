@@ -49,7 +49,7 @@
                 {
                     id: 123,
                     route: 'music-disabler',
-                    title: "Diasble menu music",
+                    title: "Disable menu music",
                     description: "How to disable SF2000 menu background music in one single step",
                     icon: 'mdi-volume-mute'
                 },
