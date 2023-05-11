@@ -1,30 +1,57 @@
-# About
-This repository contains utilities useful for Datafrog SF2000 owners.
+# base
 
-## Foreword
-If you have some IT experience you might find part of the steps counter intuitive. 
+## Project setup
 
-- Eg. pagefile.sys file being the menu background music. 
+```
+# yarn
+yarn
 
-The reason for this weird naming convention on Datafrog's end is - obfuscation. They compile their OS in a way that obfuscates the, otherwise obvious, file system/structure.
-Thus you end up modifying music by editing pagefile.sys file, which usually would be responsible for something entirely different on Win/Nix systems. There's much more examples of this, eg. there are files on the SD card named after popular windows .dll libraries, or even DirectX.
+# npm
+npm install
 
-Takeaway is: this is intentional obfuscation of the OS. Backup all your files prior to modification and you will be okay.
+# pnpm
+pnpm install
+```
 
+### Compiles and hot-reloads for development
 
-## Playbooks
+```
+# yarn
+yarn dev
 
-### How to remove the menu music
-A lot of folks, including me, find the inbuilt menu music annoying. Currently there's no way to disable it from the software of the SF2000. At the same time parts of the system's OS are reverse engineered, thus allowing us to do such modifications.
+# npm
+npm run dev
 
-To disable the menu music:
-- backup the file from your SD card
-> SD/Resources/pagefile.sys
-- [download the substitution file](https://github.com/tzubertowski/sf2000-utilities/releases/download/sf2000/datafrog-sf2000-remove-music.zip), this one is an empty file with required file headers
-- unzip it and copy "pagefile.sys" into your SD/Resources/pagefile.sys
-- replace the original file
+# pnpm
+pnpm dev
+```
 
-Insert the SD card back into the device, turn it on and notice the music no longer plays in the menu.
+### Compiles and minifies for production
 
-### Remap emulation buttons/controls
-WIP, coming soon as a separate webpage.
+```
+# yarn
+yarn build
+
+# npm
+npm run build
+
+# pnpm
+pnpm build
+```
+
+### Lints and fixes files
+
+```
+# yarn
+yarn lint
+
+# npm
+npm run lint
+
+# pnpm
+pnpm lint
+```
+
+### Customize configuration
+
+See [Configuration Reference](https://vitejs.dev/config/).
